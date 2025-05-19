@@ -5,7 +5,6 @@
     - name: Launch EC2
       amazon.aws.ec2_instance:
         name: "MyEC2"
-        key_name: "myec2key"
         instance_type: "t2.micro"
         image_id: "ami-062f0cc54dbfd8ef1"
         region: "ap-south-1"
